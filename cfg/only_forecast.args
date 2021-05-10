@@ -1,0 +1,10 @@
+-i netcdf 
+--rain_converter totalprec 
+--zref screen 
+--uref screen 
+--qa_converter rh2q 
+--sca_sw constant 
+--wind_converter windspeed 
+--wind_dir_converter winddir 
+--co2 constant 
+--zsoro_converter phi2m

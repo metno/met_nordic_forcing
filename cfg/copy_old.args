@@ -1,0 +1,9 @@
+-i surfex
+-ig /modules/centos7/user-apps/suv/pysurfex/0.0.1-dev/examples/domains/met_nordic.json
+--rain_converter none
+--snow_converter none
+--zref screen 
+--uref screen 
+--qa_converter none
+--wind_converter none 
+--wind_dir_converter none 

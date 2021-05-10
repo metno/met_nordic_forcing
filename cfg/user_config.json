@@ -1,0 +1,132 @@
+{
+  "user_config": {
+    "netcdf": {
+      "filepattern": "@met_nordic_pattern@",
+      "interpolator": "bilinear",
+      "offset": 0,
+      "fcint": 3600,
+      "prefer_forecast": false
+    },
+    "QA": {
+      "screen": {
+        "netcdf": {
+          "converter": {
+            "none": {
+              "name": "specific_humidity_2m"
+            },
+            "rh2q": {
+              "rh": {
+                "name": "relative_humidity_2m",
+                "level": 2,
+                "units": "%"
+              },
+              "t": {
+                "name": "air_temperature_2m",
+                "level": 2,
+                "units": "K"
+              },
+              "p": {
+                "name": "surface_air_pressure",
+                "filepattern": "@model_pattern@",
+                "offset": "@ps_offset@",
+                "fcint": "@ps_fcint@",
+                "units": "Pa",
+                "member": "@member@"
+              }
+            }
+          }
+        }
+      }
+    },
+    "PS": {
+      "netcdf": {
+        "converter": {
+          "none": {
+            "name": "surface_air_pressure",
+            "filepattern": "@model_pattern@",
+            "offset": "@ps_offset@",
+            "fcint": "@ps_fcint@",
+            "units": "Pa",
+            "member": "@member@"
+          }
+        }
+      }
+    },
+    "DIR_SW": {
+      "netcdf": {
+        "converter": {
+          "none": {
+            "filepattern": "@model_pattern@",
+            "prefer_forecast": true,
+            "offset": "@acc_offset@",
+            "fcint": "@acc_fcint@",
+            "name": "integral_of_surface_downwelling_shortwave_flux_in_air_wrt_time",
+            "accumulated": true,
+            "instant": 3600.0,
+            "member": "@member@"
+          }
+        }
+      }
+    },
+    "LW": {
+      "netcdf": {
+        "converter": {
+          "none": {
+            "filepattern": "@model_pattern@",
+            "prefer_forecast": true,
+            "offset": "@acc_offset@",
+            "fcint": "@acc_fcint@",
+            "name": "integral_of_surface_downwelling_longwave_flux_in_air_wrt_time",
+            "accumulated": true,
+            "instant": 3600.0,
+            "member": "@member@"
+          }
+        }
+      }
+    },
+    "RAIN": {
+      "netcdf": {
+        "converter": {
+          "calcrain": {
+            "totalprec": {
+              "name": "precipitation_amount",
+              "accumulated": false,
+              "instant": 3600.0
+            }
+          }
+        }
+      }
+    },
+    "SNOW": {
+      "netcdf": {
+        "converter": {
+          "calcsnow": {
+            "totalprec": {
+              "name": "precipitation_amount",
+              "instant": 3600.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "only_forecast": {
+    "netcdf": {
+      "filepattern": "@model_pattern@",
+      "interpolator": "bilinear",
+      "offset": 0,
+      "fcint": 10800,
+      "prefer_forecast": true,
+      "member": "@member@"
+    }
+  },
+  "copy_old": {
+    "surfex": {
+      "filepattern": "@model_pattern@",
+      "interpolator": "bilinear",
+      "offset": 0,
+      "fcint": 3600,
+      "prefer_forecast": false
+    }
+  }
+}

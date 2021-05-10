@@ -1,0 +1,211 @@
+{
+  "2013123123": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/arome_metcoop2_5km_@YYYY@@MM@@DD@_@HH@.nc",
+    "fb": "2014010100",
+    "met_nordic_pattern": "/lustre/storeB/project/metkl/klinogrid/archive/met_nordic_analysis/v2/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "member": null
+  },
+  "2014061712": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2016110900": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "fb": "2016110818",
+    "member": 0
+  },
+  "2019030221": {
+    "met_nordic_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/yr_short/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2019030314": {
+    "acc_offset": 0
+  },
+  "2019030315": {
+    "model_pattern": "/lustre/storeB/users/trygveasp/H2O/forcing_extra/@YYYY@/@MM@/@DD@/FORCING_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "config": "copy_old"
+  },
+  "2019030316": {
+    "model_pattern": "/lustre/storeB/users/trygveasp/H2O/forcing_extra/@YYYY@/@MM@/@DD@/FORCING_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "config": "copy_old"
+  },
+  "2019030317": {
+    "model_pattern": "/lustre/storeB/users/trygveasp/H2O/forcing_extra/@YYYY@/@MM@/@DD@/FORCING_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "config": "copy_old"
+  },
+  "2019030318": {
+    "model_pattern": "/lustre/storeB/users/trygveasp/H2O/forcing_extra/@YYYY@/@MM@/@DD@/FORCING_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "config": "copy_old"
+  },
+  "2019030319": {
+    "model_pattern": "/lustre/storeB/users/trygveasp/H2O/forcing_extra/@YYYY@/@MM@/@DD@/FORCING_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "config": "copy_old"
+  },
+  "2019030320": {
+    "model_pattern": "/lustre/storeB/users/trygveasp/H2O/forcing_extra/@YYYY@/@MM@/@DD@/FORCING_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "config": "copy_old"
+  },
+  "2019030321": {
+    "model_pattern": "/lustre/storeB/users/trygveasp/H2O/forcing_extra/@YYYY@/@MM@/@DD@/FORCING_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "config": "copy_old"
+  },
+  "2019030322": {
+    "model_pattern": "/lustre/storeB/users/trygveasp/H2O/forcing_extra/@YYYY@/@MM@/@DD@/FORCING_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "config": "copy_old"
+  },
+  "2019030323": {
+    "model_pattern": "/lustre/storeB/users/trygveasp/H2O/forcing_extra/@YYYY@/@MM@/@DD@/FORCING_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "config": "copy_old"
+  },
+  "2019030400": {
+    "model_pattern": "/lustre/storeB/users/trygveasp/H2O/forcing_extra/@YYYY@/@MM@/@DD@/FORCING_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "config": "copy_old"
+  },
+  "2019030401": {
+    "model_pattern": "/lustre/storeB/users/trygveasp/H2O/forcing_extra/@YYYY@/@MM@/@DD@/FORCING_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "config": "copy_old"
+  },
+  "2019030402": {
+    "model_pattern": "/lustre/storeB/users/trygveasp/H2O/forcing_extra/@YYYY@/@MM@/@DD@/FORCING_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "config": "copy_old"
+  },
+  "2019030403": {
+    "model_pattern": "/lustre/storeB/users/trygveasp/H2O/forcing_extra/@YYYY@/@MM@/@DD@/FORCING_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "config": "copy_old"
+  },
+  "2019030404":{
+     "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc",
+     "met_nordic_pattern": "/lustre/storeB/project/metkl/klinogrid/archive/met_nordic_analysis/v2/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2020020412": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps//@YYYY@/@MM@/@DD@/meps_lagged_6_h_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "fb": "2020020406"
+  },
+  "2020011318": {
+    "met_nordic_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/yr_short/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2020011500": {
+     "met_nordic_pattern": "/lustre/storeB/project/metkl/klinogrid/archive/met_nordic_analysis/v2/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2020012719":{
+    "met_nordic_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/yr_short/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2020020100": {
+    "met_nordic_pattern": "/lustre/storeB/project/metkl/klinogrid/archive/met_nordic_analysis/v2/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2020020403": {
+    "met_nordic_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/yr_short/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2020020503": {
+    "met_nordic_pattern": "/lustre/storeB/project/metkl/klinogrid/archive/met_nordic_analysis/v2/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2020070714": {
+    "met_nordic_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/yr_short/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2020070800": {
+    "met_nordic_pattern": "/lustre/storeB/project/metkl/klinogrid/archive/met_nordic_analysis/v2/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2020071103": {
+    "met_nordic_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/yr_short/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2020071500": {
+    "met_nordic_pattern": "/lustre/storeB/project/metkl/klinogrid/archive/met_nordic_analysis/v2/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2020072119": {
+    "met_nordic_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/yr_short/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2020072120": {
+    "config": "only_forecast"
+  },
+  "2020072121": {
+    "met_nordic_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/yr_short/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2020072501": {
+    "met_nordic_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/yr_short/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2020081213": {
+    "config": "only_forecast"
+  },
+  "2020081214": {
+    "config": "only_forecast"
+  },
+  "2020082512": {
+    "config": "only_forecast"
+  },
+  "2020082514": {
+    "config": "only_forecast"
+  },
+  "2020100512": {
+    "config": "only_forecast"
+  },
+  "2020100513": {
+    "config": "only_forecast"
+  },
+  "2020101317": {
+    "config": "only_forecast"
+  },
+  "2020101509": {
+    "config": "only_forecast"
+  },
+  "2020110608": {
+    "config": "only_forecast"
+  },
+  "2020112511": {
+    "config": "only_forecast"
+  },
+  "2020120120": {
+    "config": "only_forecast"
+  },
+  "2020120121": {
+    "config": "only_forecast"
+  },
+  "2020120122": {
+    "config": "only_forecast"
+  },
+  "2020121412": {
+    "config": "only_forecast"
+  },
+  "2020121504": {
+    "config": "only_forecast"
+  },
+  "2020122809": {
+    "config": "only_forecast"
+  },
+  "2021010917": {
+    "config": "only_forecast"
+  },
+  "2021010918": {
+    "config": "only_forecast"
+  },
+  "2021010919": {
+    "config": "only_forecast"
+  },
+  "2021010920": {
+    "config": "only_forecast"
+  },
+  "2021033004": {
+    "config": "only_forecast"
+  },
+  "2021041213": {
+    "config": "only_forecast"
+  },
+  "2021042902": {
+    "config": "only_forecast"
+  },
+  "2021042907": {
+    "config": "only_forecast"
+  },
+  "2021042908": {
+    "config": "only_forecast"
+  },
+  "2021042912": {
+    "config": "only_forecast"
+  },
+  "2021050307": {
+    "config": "only_forecast"
+  },
+  "2021050308": {
+    "config": "only_forecast"
+  },
+  "2021050309": {
+    "config": "only_forecast"
+  }
+}

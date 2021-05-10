@@ -1,0 +1,111 @@
+{
+  "2013123123": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/arome_metcoop2_5km_@YYYY@@MM@@DD@_@HH@.nc",
+    "fb": "2014010100",
+    "met_nordic_pattern": "/lustre/storeB/project/metkl/klinogrid/archive/met_nordic_analysis/v2/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "member": null
+  },
+  "2014061700": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2016110900": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "fb": "2016110818",
+    "member": 0
+  },
+  "2020020412": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps//@YYYY@/@MM@/@DD@/meps_lagged_6_h_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "fb": "2020020406"
+  },
+  "2020072501": {
+    "met_nordic_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/yr_short/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2014010800": {
+    "ps_offset": 3600,
+    "ps_fcint": 21600
+  },
+  "2014010801": {
+    "ps_offset": 3600,
+    "ps_fcint": 21600
+  },
+  "2014010802": {
+    "ps_offset": 3600,
+    "ps_fcint": 21600
+  },
+  "2014010803": {
+    "ps_offset": 3600,
+    "ps_fcint": 21600
+  },
+  "2014010804": {
+    "ps_offset": 3600,
+    "ps_fcint": 21600,
+    "acc_offset": 14400,
+    "acc_fcint": 21600
+  },
+  "2014010805": {
+    "ps_offset": 3600,
+    "ps_fcint": 21600,
+    "acc_offset": 14400,
+    "acc_fcint": 21600
+  },
+  "2014010806": {
+    "acc_offset": 14400,
+    "acc_fcint": 21600
+  },
+  "2014010807": {
+    "acc_offset": 14400,
+    "acc_fcint": 21600
+  },
+  "2014010808": {
+    "acc_offset": 14400,
+    "acc_fcint": 21600
+  },
+  "2014010809": {
+    "acc_offset": 14400,
+    "acc_fcint": 21600
+  },
+  "2014010812": {
+    "ps_offset": 3600,
+    "ps_fcint": 21600
+  },
+  "2014010813": {
+    "ps_offset": 3600,
+    "ps_fcint": 21600
+  },
+  "2014010814": {
+    "ps_offset": 3600,
+    "ps_fcint": 21600
+  },
+  "2014010815": {
+    "ps_offset": 3600,
+    "ps_fcint": 21600
+  },
+  "2014010816": {
+    "ps_offset": 3600,
+    "ps_fcint": 21600,
+    "acc_offset": 14400,
+    "acc_fcint": 21600
+  },
+  "2014010817": {
+    "ps_offset": 3600,
+    "ps_fcint": 21600,
+    "acc_offset": 14400,
+    "acc_fcint": 21600
+  },
+  "2014010818": {
+    "acc_offset": 14400,
+    "acc_fcint": 21600
+  },
+  "2014010819": {
+    "acc_offset": 14400,
+    "acc_fcint": 21600
+  },
+  "2014010820": {
+    "acc_offset": 14400,
+    "acc_fcint": 21600
+  },
+  "2014010821": {
+    "acc_offset": 14400,
+    "acc_fcint": 21600
+  }
+}

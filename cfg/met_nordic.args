@@ -1,0 +1,11 @@
+-i netcdf
+--rain_converter calcrain 
+--snow_converter calcsnow 
+--zref screen 
+--uref screen 
+--qa_converter rh2q 
+--sca_sw constant 
+--wind_converter none 
+--wind_dir_converter none 
+--co2 constant
+
