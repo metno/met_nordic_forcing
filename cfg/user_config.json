@@ -115,7 +115,7 @@
       "filepattern": "@model_pattern@",
       "interpolator": "bilinear",
       "offset": 0,
-      "fcint": 10800,
+      "fcint": 21600,
       "prefer_forecast": true,
       "member": "@member@"
     }

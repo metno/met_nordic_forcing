@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 
 import os
 import sys
@@ -9,7 +8,7 @@ import surfex
 
 outdir = "/lustre/storeB/project/nwp/H2O/wp2/forcing/v2/"
 cfg_dir = "/home/trygveasp/met_nordic/cfg/"
-workdir_path = "/lustre/storeB/project/nwp/H2O/wp2/forcing/v2/work/"
+workdir_path = "/lustre/storeB/project/nwp/H2O/wp2/forcing/v2_work/"
 
 
 def recursive_sub(input1, search, val):
@@ -39,26 +38,26 @@ def recursive_sub(input1, search, val):
     return input1
 
 
-def merge_var_dict(merged_dict_copy, var_name, screen=False):
+def merge_var_dict(merged_dict_copy, var_name, fmt, screen=False):
     merged_dict = merged_dict_copy.copy()
     var_dict = {}
-    for key in merged_dict["netcdf"]:
+    for key in merged_dict[fmt]:
         # print("format", key, merged_dict["netcdf"][key])
-        var_dict.update({key: merged_dict["netcdf"][key]})
+        var_dict.update({key: merged_dict[fmt][key]})
 
     # print("merged dict", merged_dict)
     v_dict = {}
     if var_name in merged_dict:
         if screen:
-            if "netcdf" in merged_dict[var_name]["screen"]:
-                if "converter" in merged_dict[var_name]["screen"]["netcdf"]:
-                    if "none" in merged_dict[var_name]["screen"]["netcdf"]["converter"]:
-                        v_dict = merged_dict[var_name]["screen"]["netcdf"]["converter"]["none"]
+            if fmt in merged_dict[var_name]["screen"]:
+                if "converter" in merged_dict[var_name]["screen"][fmt]:
+                    if "none" in merged_dict[var_name]["screen"][fmt]["converter"]:
+                        v_dict = merged_dict[var_name]["screen"][fmt]["converter"]["none"]
         else:
-            if "netcdf" in merged_dict[var_name]:
-                if "converter" in merged_dict[var_name]["netcdf"]:
-                    if "none" in merged_dict[var_name]["netcdf"]["converter"]:
-                        v_dict = merged_dict[var_name]["netcdf"]["converter"]["none"]
+            if fmt in merged_dict[var_name]:
+                if "converter" in merged_dict[var_name][fmt]:
+                    if "none" in merged_dict[var_name][fmt]["converter"]:
+                        v_dict = merged_dict[var_name][fmt]["converter"]["none"]
 
     # print(v_dict)
     for key in v_dict:
@@ -68,15 +67,15 @@ def merge_var_dict(merged_dict_copy, var_name, screen=False):
     return var_dict
 
 
-def set_variable(merged_dict, var, fb, screen=False):
-    var_dict = merge_var_dict(merged_dict.copy(), var, screen=screen)
-    variable2 = surfex.variable.Variable("netcdf", var_dict.copy(), fb)
+def set_variable(merged_dict, var, fb, fmt, screen=False):
+    var_dict = merge_var_dict(merged_dict.copy(), var, fmt, screen=screen)
+    variable = surfex.variable.Variable(fmt, var_dict.copy(), fb)
     # print(variable.filepattern)
-    return variable2
+    return variable
 
 
-def get_dict_val(merged_dict, var_name, name, screen=False):
-    var_dict = merge_var_dict(merged_dict, var_name, screen=screen)
+def get_dict_val(merged_dict, var_name, name, fmt, screen=False):
+    var_dict = merge_var_dict(merged_dict, var_name, fmt, screen=screen)
     if screen:
         val = var_dict[name]
     else:
@@ -84,24 +83,20 @@ def get_dict_val(merged_dict, var_name, name, screen=False):
     return val
 
 
-def set_dict_val(user_config, var_name, name, value, screen=False):
+def set_dict_val(user_config, var_name, name, value, fmt, screen=False):
 
     if screen:
-        user_config[var_name]["screen"]["netcdf"]["converter"]["none"].update({name: value})
+        user_config[var_name]["screen"][fmt]["converter"]["none"].update({name: value})
     else:
-        user_config[var_name]["netcdf"]["converter"]["none"].update({name: value})
+        user_config[var_name][fmt]["converter"]["none"].update({name: value})
     return user_config
 
 
-def adjust_missing_files(config, merged_dict, var_name, validtime, fb, var_type, screen=False,
+def adjust_missing_files(config, merged_dict, var_name, validtime, fb, fmt, screen=False,
                          previoustime=None):
 
-    variable = set_variable(merged_dict, var_name, fb, screen=screen)
-    basetime = variable.get_basetime(validtime=validtime)
-    fc_hours = int((validtime - basetime).seconds/3600.)
-    max_hours = 66 - fc_hours
-    offset = None
-    fcint = None
+    variable = set_variable(merged_dict, var_name, fb, fmt, screen=screen)
+    max_hours = 66
     for hour in range(0, max_hours):
         dtg = validtime - timedelta(hours=hour)
         if previoustime is not None:
@@ -109,44 +104,23 @@ def adjust_missing_files(config, merged_dict, var_name, validtime, fb, var_type,
 
         fname = read_variable(variable, dtg, var_name, previoustime=previoustime)
         if fname is None:
-            offset = get_dict_val(merged_dict, var_name, "offset", screen=screen)
-            fcint = get_dict_val(merged_dict, var_name, "fcint", screen=screen)
+            offset = get_dict_val(merged_dict, var_name, "offset", fmt, screen=screen)
+            fcint = get_dict_val(merged_dict, var_name, "fcint", fmt, screen=screen)
             # Modify
             if offset < max_hours:
                 offset = offset + 3600
 
             print(offset, fcint)
-            merged_dict = set_dict_val(merged_dict, var_name, "offset", offset, screen=screen)
-            merged_dict = set_dict_val(merged_dict, var_name, "fcint", fcint, screen=screen)
-            variable = set_variable(merged_dict, var_name, fb, screen=screen)
+            merged_dict = set_dict_val(merged_dict, var_name, "offset", offset, fmt, screen=screen)
+            merged_dict = set_dict_val(merged_dict, var_name, "fcint", fcint, fmt, screen=screen)
+            variable = set_variable(merged_dict, var_name, fb, fmt, screen=screen)
         else:
             vtime = validtime.strftime("%Y%m%d%H")
-            if offset is not None:
-                if var_type == "ps":
-                    if vtime in config:
-                        config[vtime].update({"ps_offset": offset})
-                    else:
-                        config.update({vtime: {"ps_offset": offset}})
-                elif var_type == "acc":
-                    if vtime in config:
-                        config[vtime].update({"acc_offset": offset})
-                    else:
-                        config.update({vtime: {"acc_offset": offset}})
-                else:
-                    raise Exception
-            if fcint is not None:
-                if var_type == "ps":
-                    if vtime in config:
-                        config[vtime].update({"ps_fcint": fcint})
-                    else:
-                        config.update({vtime: {"ps_fcint": fcint}})
-                elif var_type == "acc":
-                    if vtime in config:
-                        config[vtime].update({"acc_fcint": fcint})
-                    else:
-                        config.update({vtime: {"acc_fcint": fcint}})
-                else:
-                    raise Exception
+            in_12_hours = (validtime + timedelta(hours=12)).strftime("%Y%m%d%H")
+
+            if validtime != dtg:
+                config.update({vtime: {"model_pattern": fname}})
+                config.update({in_12_hours: {"model_pattern": variable.filepattern}})
 
             vtime = validtime.strftime("%Y%m%d%H")
             if vtime in config:
@@ -156,7 +130,7 @@ def adjust_missing_files(config, merged_dict, var_name, validtime, fb, var_type,
     raise Exception
 
 
-def read_variable(variable, validtime, var_name, previoustime=False):
+def read_variable(variable, validtime, var_name, previoustime=None):
     # print(variable.filepattern)
     fname = check_existence(variable.get_filename(validtime=validtime, previoustime=previoustime), validtime, var_name)
     return fname
@@ -190,14 +164,6 @@ def get_args(config_file, dtg):
                 fb = config[config_dtg]["fb"]
             if "member" in config[config_dtg]:
                 member = config[config_dtg]["member"]
-            if "ps_offset" in config[config_dtg]:
-                ps_offset = config[config_dtg]["ps_offset"]
-            if "ps_fcint" in config[config_dtg]:
-                ps_fcint = config[config_dtg]["ps_fcint"]
-            if "acc_offset" in config[config_dtg]:
-                acc_offset = config[config_dtg]["acc_offset"]
-            if "acc_fcint" in config[config_dtg]:
-                acc_fcint = config[config_dtg]["acc_fcint"]
         if cdtg == dtg:
             if "config" in config[config_dtg]:
                 config_name = config[config_dtg]["config"]
@@ -233,7 +199,7 @@ def get_args(config_file, dtg):
     user_config = recursive_sub(user_config, "@acc_fcint@", acc_fcint)
 
     # print("get_args", user_config)
-    return fb, args, user_config
+    return fb, args, user_config, config_name
 
 
 def met_nordic_forcing(dtg, fh, logfile):
@@ -266,7 +232,7 @@ def met_nordic_forcing(dtg, fh, logfile):
     fh.write("# Load modules\n")
     fh.write("module load Python/3.7.3 gridpp/0.6.0 suv/pysurfex/0.0.1-dev\n\n")
 
-    fb, args, user_config = get_args("config.json", dtg)
+    fb, args, user_config, config_name = get_args("config.json", dtg)
 
     yaml.dump(user_config, open(workdir + "user_config_" + dtg_str + ".yml", "w"),  default_flow_style=False)
 
@@ -350,30 +316,47 @@ def check_loop(dtg_start, dtg_stop):
 
     year = datetime.strftime(dtg, "%Y")
     while dtg <= dtg_stop:
+
         year2 = datetime.strftime(dtg, "%Y")
         if year2 != year:
-            json.dump(config, open(cfg_dir + "config_" + year + ".json", "w"), indent=2, sort_keys=True)
+            json.dump(config, open(cfg_dir + "config2_" + year + ".json", "w"), indent=2, sort_keys=True)
             year = year2
         vars_config = yaml.load(open("/home/trygveasp/revision_control/pysurfex/surfex/cfg/config.yml", "r"))
-        fb, args, user_config = get_args("main_config.json", dtg)
+        fb, args, user_config, config_name = get_args("main_config.json", dtg)
         fb = datetime.strptime(fb, "%Y%m%d%H")
         merged_dict = surfex.deep_update(vars_config, user_config)
-        config = adjust_missing_files(config, merged_dict, "PS", dtg, fb, "ps", screen=False)
-        previoustime = dtg - timedelta(seconds=3600)
-        config = adjust_missing_files(config, merged_dict, "DIR_SW", dtg, fb, "acc",
-                                      previoustime=previoustime, screen=False)
-        config = adjust_missing_files(config, merged_dict, "TA", dtg, fb, "ps", screen=True)
 
-        dtg = dtg + timedelta(seconds=3600)
+        fmt = "netcdf"
+        if config_name == "copy_old":
+            fmt = "surfex"
+        if int(dtg.strftime("%H")) % 6 == 0:
+            config = adjust_missing_files(config, merged_dict, "PS", dtg, fb, fmt)
+        if config_name == "user_config":
+            variable = set_variable(merged_dict, "TA", fb, fmt, screen=True)
+            fname = read_variable(variable, dtg, "TA")
+            if fname is None:
+                raise Exception
 
-    json.dump(config, open(cfg_dir + "config.json", "w"), indent=2, sort_keys=True)
+        dtg = dtg + timedelta(hours=1)
+
+    json.dump(config, open(cfg_dir + "config2.json", "w"), indent=2, sort_keys=True)
 
 
-if __name__ == "__main__":
-    dtg1 = datetime.strptime(sys.argv[1], "%Y%m%d%H")
-    dtg2 = datetime.strptime(sys.argv[2], "%Y%m%d%H")
-    # Default time loop
-    time_loop(dtg1, dtg2)
+def check_missing_loop(dtg_start, dtg_stop):
 
-    # Routine to set input
-    # check_loop(dtg1, dtg2)
+    dtg = dtg_start
+    print(dtg, dtg_stop)
+
+    while dtg <= dtg_stop:
+        print(dtg)
+        yyyy = datetime.strftime(dtg, "%Y")
+        mm = datetime.strftime(dtg, "%m")
+        dd = datetime.strftime(dtg, "%d")
+        hh = datetime.strftime(dtg, "%H")
+        output_file = outdir + "/" + yyyy + "/" + mm + "/" + dd + \
+                               "/FORCING_" + yyyy + mm + dd + "T" + hh + "Z.nc"
+        # print(output_file)
+        if not os.path.exists(output_file):
+            print("Output file is missing: " + output_file)
+
+        dtg = dtg + timedelta(hours=1)

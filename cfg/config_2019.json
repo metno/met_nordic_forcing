@@ -14,375 +14,63 @@
     "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
   },
   "2019030100": {
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030101": {
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030102": {
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030103": {
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030104": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030105": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030106": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030107": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030108": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030109": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030110": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030111": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030112": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030113": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030114": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030115": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030116": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030117": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030118": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030119": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030120": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030121": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030122": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030123": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030200": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030201": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030202": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030203": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030204": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030205": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030206": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030207": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030208": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030209": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030210": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030211": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030212": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030213": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030214": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030215": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030216": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030217": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030218": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030219": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019030220": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2019/02/28/meps_subset_2_5km_20190228T18Z.nc"
   },
   "2019030221": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "met_nordic_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/yr_short/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc",
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "config": "only_forecast"
   },
   "2019030222": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "config": "only_forecast"
   },
   "2019030223": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "config": "only_forecast"
   },
   "2019030300": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "config": "only_forecast"
   },
   "2019030301": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "config": "only_forecast"
   },
   "2019030302": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "config": "only_forecast"
   },
   "2019030303": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "config": "only_forecast"
   },
   "2019030304": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "config": "only_forecast"
   },
   "2019030305": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "config": "only_forecast"
   },
   "2019030306": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "config": "only_forecast"
   },
   "2019030307": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "config": "only_forecast"
   },
   "2019030308": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "config": "only_forecast"
   },
   "2019030309": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "config": "only_forecast"
   },
   "2019030310": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "config": "only_forecast"
   },
   "2019030311": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "config": "only_forecast"
   },
   "2019030312": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "config": "only_forecast"
   },
   "2019030313": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "config": "copy_old",
+    "model_pattern": "/lustre/storeB/users/trygveasp/H2O/v2/forcing_extra/@YYYY@/@MM@/@DD@/FORCING_@YYYY@@MM@@DD@T@HH@Z.nc"
   },
   "2019030314": {
-    "acc_fcint": 21600,
-    "acc_offset": 3600,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "config": "copy_old",
+    "model_pattern": "/lustre/storeB/users/trygveasp/H2O/v2/forcing_extra/@YYYY@/@MM@/@DD@/FORCING_@YYYY@@MM@@DD@T@HH@Z.nc"
   },
   "2019030315": {
     "config": "copy_old",
@@ -441,92 +129,16 @@
     "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
   },
   "2019073006": {
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2019/07/30/meps_subset_2_5km_20190730T00Z.nc"
   },
-  "2019073007": {
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019073008": {
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019073009": {
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019073010": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019073011": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019073012": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800
-  },
-  "2019073013": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800
-  },
-  "2019073014": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800
-  },
-  "2019073015": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800
+  "2019073018": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
   },
   "2019121612": {
-    "ps_fcint": 21600,
-    "ps_offset": 3600
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2019/12/16/meps_subset_2_5km_20191216T06Z.nc"
   },
-  "2019121613": {
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019121614": {
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019121615": {
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019121616": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019121617": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800,
-    "ps_fcint": 21600,
-    "ps_offset": 3600
-  },
-  "2019121618": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800
-  },
-  "2019121619": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800
-  },
-  "2019121620": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800
-  },
-  "2019121621": {
-    "acc_fcint": 21600,
-    "acc_offset": 10800
+  "2019121700": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
   },
   "2020011318": {
     "met_nordic_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/yr_short/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc"
