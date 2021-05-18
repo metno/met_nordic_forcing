@@ -5,12 +5,372 @@
     "met_nordic_pattern": "/lustre/storeB/project/metkl/klinogrid/archive/met_nordic_analysis/v2/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc",
     "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/arome_metcoop2_5km_@YYYY@@MM@@DD@_@HH@.nc"
   },
+  "2014010800": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/01/07/arome_metcoop2_5km_20140107_18.nc"
+  },
+  "2014010812": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/01/08/arome_metcoop2_5km_20140108_06.nc"
+  },
+  "2014010900": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/arome_metcoop2_5km_@YYYY@@MM@@DD@_@HH@.nc"
+  },
+  "2014012100": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/01/20/arome_metcoop2_5km_20140120_18.nc"
+  },
+  "2014012106": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/01/20/arome_metcoop2_5km_20140120_18.nc"
+  },
+  "2014012112": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/01/20/arome_metcoop2_5km_20140120_18.nc"
+  },
+  "2014012118": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/01/20/arome_metcoop2_5km_20140120_18.nc"
+  },
+  "2014012200": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/arome_metcoop2_5km_@YYYY@@MM@@DD@_@HH@.nc"
+  },
+  "2014012206": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/arome_metcoop2_5km_@YYYY@@MM@@DD@_@HH@.nc"
+  },
+  "2014012706": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/01/27/arome_metcoop2_5km_20140127_00.nc"
+  },
+  "2014012718": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/arome_metcoop2_5km_@YYYY@@MM@@DD@_@HH@.nc"
+  },
+  "2014021106": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/02/11/arome_metcoop2_5km_20140211_00.nc"
+  },
+  "2014021118": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/arome_metcoop2_5km_@YYYY@@MM@@DD@_@HH@.nc"
+  },
+  "2014032906": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/03/29/arome_metcoop2_5km_20140329_00.nc"
+  },
+  "2014032912": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/03/29/arome_metcoop2_5km_20140329_00.nc"
+  },
+  "2014032918": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/03/29/arome_metcoop2_5km_20140329_00.nc"
+  },
+  "2014033000": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/03/29/arome_metcoop2_5km_20140329_00.nc"
+  },
+  "2014033006": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/03/29/arome_metcoop2_5km_20140329_00.nc"
+  },
+  "2014033012": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/arome_metcoop2_5km_@YYYY@@MM@@DD@_@HH@.nc"
+  },
+  "2014033018": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/arome_metcoop2_5km_@YYYY@@MM@@DD@_@HH@.nc"
+  },
+  "2014060212": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/06/02/arome_metcoop2_5km_20140602_06.nc"
+  },
+  "2014060300": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/arome_metcoop2_5km_@YYYY@@MM@@DD@_@HH@.nc"
+  },
   "2014061712": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2014062600": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/06/25/AROME_MetCoOp_18_fp.nc_20140625"
+  },
+  "2014062606": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/06/25/AROME_MetCoOp_18_fp.nc_20140625"
+  },
+  "2014062612": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/06/25/AROME_MetCoOp_18_fp.nc_20140625"
+  },
+  "2014062618": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/06/25/AROME_MetCoOp_18_fp.nc_20140625"
+  },
+  "2014062700": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2014062706": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2014070200": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/07/01/AROME_MetCoOp_18_fp.nc_20140701"
+  },
+  "2014070206": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/07/01/AROME_MetCoOp_18_fp.nc_20140701"
+  },
+  "2014070212": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/07/01/AROME_MetCoOp_18_fp.nc_20140701"
+  },
+  "2014070218": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/07/01/AROME_MetCoOp_18_fp.nc_20140701"
+  },
+  "2014070300": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2014070306": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/07/03/AROME_MetCoOp_00_fp.nc_20140703"
+  },
+  "2014070312": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/07/03/AROME_MetCoOp_00_fp.nc_20140703"
+  },
+  "2014070318": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2014070400": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2014091812": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/09/18/AROME_MetCoOp_06_fp.nc_20140918"
+  },
+  "2014091900": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2014100106": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/10/01/AROME_MetCoOp_00_fp.nc_20141001"
+  },
+  "2014100118": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2014100306": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/10/03/AROME_MetCoOp_00_fp.nc_20141003"
+  },
+  "2014100318": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2014100906": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/10/09/AROME_MetCoOp_00_fp.nc_20141009"
+  },
+  "2014100918": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2014111118": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/11/11/AROME_MetCoOp_12_fp.nc_20141111"
+  },
+  "2014111206": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2014112412": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2014/11/24/AROME_MetCoOp_06_fp.nc_20141124"
+  },
+  "2014112500": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2015011218": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2015/01/12/AROME_MetCoOp_12_fp.nc_20150112"
+  },
+  "2015011306": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2015011418": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2015/01/14/AROME_MetCoOp_12_fp.nc_20150114"
+  },
+  "2015011506": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2015012118": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2015/01/21/AROME_MetCoOp_12_fp.nc_20150121"
+  },
+  "2015012206": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2015012618": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2015/01/26/AROME_MetCoOp_12_fp.nc_20150126"
+  },
+  "2015012706": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2015050400": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2015/05/03/AROME_MetCoOp_18_fp.nc_20150503"
+  },
+  "2015050412": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2015122118": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2015/12/21/AROME_MetCoOp_12_fp.nc_20151221"
+  },
+  "2015122206": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2016040506": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2016/04/05/AROME_MetCoOp_00_fp.nc_20160405"
+  },
+  "2016040518": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2016040712": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2016/04/07/AROME_MetCoOp_06_fp.nc_20160407"
+  },
+  "2016040718": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2016/04/07/AROME_MetCoOp_06_fp.nc_20160407"
+  },
+  "2016040800": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2016040806": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2016053112": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2016/05/31/AROME_MetCoOp_06_fp.nc_20160531"
+  },
+  "2016060100": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2016070618": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2016/07/06/AROME_MetCoOp_12_fp.nc_20160706"
+  },
+  "2016070706": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2016101018": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2016/10/10/AROME_MetCoOp_12_fp.nc_20161010"
+  },
+  "2016101100": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2016/10/10/AROME_MetCoOp_12_fp.nc_20161010"
+  },
+  "2016101106": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2016101112": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2016101606": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2016/10/16/AROME_MetCoOp_00_fp.nc_20161016"
+  },
+  "2016101618": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
+  },
+  "2016110806": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/2016/11/08/AROME_MetCoOp_00_fp.nc_20161108"
+  },
+  "2016110818": {
     "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/DNMI_AROME_METCOOP/@YYYY@/@MM@/@DD@/AROME_MetCoOp_@HH@_fp.nc_@YYYY@@MM@@DD@"
   },
   "2016110900": {
     "fb": "2016110818",
     "member": 0,
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2017010100": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2016/12/31/meps_subset_2_5km_20161231T18Z.nc"
+  },
+  "2017010112": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2017040606": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2017/04/06/meps_subset_2_5km_20170406T00Z.nc"
+  },
+  "2017040612": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2017/04/06/meps_subset_2_5km_20170406T00Z.nc"
+  },
+  "2017040618": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2017/04/06/meps_subset_2_5km_20170406T00Z.nc"
+  },
+  "2017040700": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2017040706": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2017041412": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2017/04/14/meps_subset_2_5km_20170414T06Z.nc"
+  },
+  "2017041500": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2017050906": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2017/05/09/meps_subset_2_5km_20170509T00Z.nc"
+  },
+  "2017050918": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2017060800": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2017/06/07/meps_subset_2_5km_20170607T18Z.nc"
+  },
+  "2017060806": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2017/06/07/meps_subset_2_5km_20170607T18Z.nc"
+  },
+  "2017060812": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2017060818": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2017070500": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2017/07/04/meps_subset_2_5km_20170704T18Z.nc"
+  },
+  "2017070506": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2017/07/04/meps_subset_2_5km_20170704T18Z.nc"
+  },
+  "2017070512": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2017070518": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2017072306": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2017/07/23/meps_subset_2_5km_20170723T00Z.nc"
+  },
+  "2017072318": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2017080906": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2017/08/09/meps_subset_2_5km_20170809T00Z.nc"
+  },
+  "2017080918": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2017091718": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2017/09/17/meps_subset_2_5km_20170917T12Z.nc"
+  },
+  "2017091806": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2017092518": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2017/09/25/meps_subset_2_5km_20170925T12Z.nc"
+  },
+  "2017092606": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2017100100": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2017/09/30/meps_subset_2_5km_20170930T18Z.nc"
+  },
+  "2017100112": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2017120100": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2017/11/30/meps_subset_2_5km_20171130T18Z.nc"
+  },
+  "2017120112": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2018012312": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2018/01/23/meps_subset_2_5km_20180123T06Z.nc"
+  },
+  "2018012400": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2018032712": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2018/03/27/meps_subset_2_5km_20180327T06Z.nc"
+  },
+  "2018032800": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2018051406": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2018/05/14/meps_subset_2_5km_20180514T00Z.nc"
+  },
+  "2018051418": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2018090212": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2018/09/02/meps_subset_2_5km_20180902T06Z.nc"
+  },
+  "2018090300": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2018092606": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2018/09/26/meps_subset_2_5km_20180926T00Z.nc"
+  },
+  "2018092618": {
     "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
   },
   "2019030100": {
@@ -126,6 +486,18 @@
   },
   "2019030404": {
     "met_nordic_pattern": "/lustre/storeB/project/metkl/klinogrid/archive/met_nordic_analysis/v2/@YYYY@/@MM@/@DD@/met_analysis_1_0km_nordic_@YYYY@@MM@@DD@T@HH@Z.nc",
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2019073006": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2019/07/30/meps_subset_2_5km_20190730T00Z.nc"
+  },
+  "2019073018": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
+  },
+  "2019121612": {
+    "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/2019/12/16/meps_subset_2_5km_20191216T06Z.nc"
+  },
+  "2019121700": {
     "model_pattern": "/lustre/storeB/immutable/archive/projects/metproduction/meps/@YYYY@/@MM@/@DD@/meps_subset_2_5km_@YYYY@@MM@@DD@T@HH@Z.nc"
   },
   "2020011112": {
